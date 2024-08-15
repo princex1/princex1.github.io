@@ -141,11 +141,17 @@ padding:3px;
  padding-right:80px;
 }
 .log-button{
-     padding: 2px;
-     padding-left: 10px;
-     padding-right: 10px;
-     border-radius: 17px;
-     background-color: white;
+  border-color: #008CBA;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 17px;
+  background-color: rgb(0, 0, 0);
+  transition-duration: .35s;
+}
+.log-button:hover{
+  background-color: #008CBA;
+
 }
  .title{
   font-weight: bold;
@@ -167,6 +173,7 @@ padding:3px;
 .about_text{
   text-align: center;
   margin-top: 70px;
+  font-size: 20px;
 }
 .log_in_text-box{
   border: 1px solid black;
