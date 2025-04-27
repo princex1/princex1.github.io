@@ -2,33 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Responsive Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav class="navclss">
-    <ul id="nav">
-      <div class="logo"><img src="Img/Prince.jpg" alt="logo"/></div>
+  <nav>
+    <div class="logo">Prince Gohel | Portfolio</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="conutact.html">Countact Us</a></li>
+      <li><a href="pages/Projects.html">Projects</a></li>
+      <li><a href="pages/Contact.html">Contact Me</a></li>
     </ul>
   </nav>
-  <section class="section-style">
-    <h2>Home</h2>
-    <p class="font">Welcome To Prince Gohel Website.</p>
-    <p style="font-size:35px;">This Website is Developed by Prince, First Log in </p><br />
-    <a href="Log in .html" class="login">&nbsp;log in&nbsp;</a> 
-  </section>
-  <footer class="footer">
-    <p>&copy;2024&nbsp;Princewab.cf All Rights Reserved.</p>
+  <main class="background">
+    <section id="home" style="text-align: center;">
+      <h2>Home</h2>
+      <p>Welcome to my personal website! Here you'll find information about me and my projects.</p>
+    </section>
+  </main>
+  <footer>
+    © 2025 Copyright. All rights reserved.
   </footer>
-  <script src="js/index.js"></script>
+  <!-- Scroll to top button -->
+  <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+  <script src="main.js"></script>
 </body>
 </html>
